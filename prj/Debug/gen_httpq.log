@@ -1,0 +1,129 @@
+﻿  commandmap.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\commandmap.cpp(188): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+  commands.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(269): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(566): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(579): note: see declaration of 'strnicmp'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(1856): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(1866): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2110): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2166): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2242): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2298): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2453): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2583): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2667): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2797): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2871): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(2940): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(3025): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(3094): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(3150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\commands.cpp(3206): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  configdialog.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  configinfo.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.cpp(44): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.cpp(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  configmanager.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\src\httpq-code-8-httpq-trunk\src\configmanager.cpp(93): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+c:\src\httpq-code-8-httpq-trunk\src\configmanager.cpp(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\configmanager.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\configmanager.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\configmanager.cpp(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  httpq.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  pluginmanager.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+  query.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\query.cpp(98): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+  queryengine.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  server.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\configinfo.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\src\httpq-code-8-httpq-trunk\src\server.cpp(414): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: see declaration of 'gethostbyname'
+c:\src\httpq-code-8-httpq-trunk\src\server.cpp(468): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: see declaration of 'inet_ntoa'
+c:\src\httpq-code-8-httpq-trunk\src\server.cpp(474): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+  socketreader.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+  socketwriter.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\socketwriter.cpp(42): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\socketwriter.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\socketwriter.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\socketwriter.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  util.cpp
+c:\src\httpq-code-8-httpq-trunk\src\httpq.h(58): warning C4005: 'ARRAYSIZE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\winnt.h(1243): note: see previous definition of 'ARRAYSIZE'
+c:\src\httpq-code-8-httpq-trunk\src\util.cpp(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\src\httpq-code-8-httpq-trunk\src\util.cpp(225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating Code...
+  md5.c
+..\src\httpq.rc(10): fatal error RC1015: cannot open include file 'afxres.h'.
+  

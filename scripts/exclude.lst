@@ -1,0 +1,9 @@
+.svn/*
+*/.svn/*
+bin/*
+prj/Debug/*
+prj/Release/*
+prj/*.ncb
+prj/*.plg
+test/*
+httpq*

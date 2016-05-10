@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gen_httpq", "gen_httpq.vcproj", "{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "httpq_doc", "httpq_doc.vcproj", "{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "httpq_installer", "httpq_installer.vcproj", "{C10AEE2A-CFD9-4A1B-814F-82ABCA3AA519}"
+	ProjectSection(ProjectDependencies) = postProject
+		{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51} = {850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}
+		{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3} = {25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}.Debug.ActiveCfg = Debug|Win32
+		{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}.Debug.Build.0 = Debug|Win32
+		{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}.Release.ActiveCfg = Release|Win32
+		{25A5EDAD-55C6-408C-8DFF-D9A7AE4E03F3}.Release.Build.0 = Release|Win32
+		{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}.Debug.ActiveCfg = Debug|Win32
+		{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}.Debug.Build.0 = Debug|Win32
+		{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}.Release.ActiveCfg = Release|Win32
+		{850AFBD6-A8A1-4583-A9DC-CFA5A51C9F51}.Release.Build.0 = Release|Win32
+		{C10AEE2A-CFD9-4A1B-814F-82ABCA3AA519}.Debug.ActiveCfg = Debug|Win32
+		{C10AEE2A-CFD9-4A1B-814F-82ABCA3AA519}.Debug.Build.0 = Debug|Win32
+		{C10AEE2A-CFD9-4A1B-814F-82ABCA3AA519}.Release.ActiveCfg = Release|Win32
+		{C10AEE2A-CFD9-4A1B-814F-82ABCA3AA519}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

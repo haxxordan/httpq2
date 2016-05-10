@@ -1,0 +1,143 @@
+<html>
+<head>
+  <title>Winamp httpQ | Console</title>
+</head>
+
+<style type="text/css">
+	td{padding-bottom:9px;margin:0px 10px 0px 5px;float:left;}
+	select{border:1px solid #BDC7D8;width:340px;}
+	label{display:block;color:#333333;font-weight:bold;}
+	h2{display:block;color:#333333;font-weight:bold;}
+	p{display:block;color:#333333;font-weight:normal;}
+	button{border-top:solid 1px #94a5c8;border-right:solid 1px #1d326d;border-bottom:solid 1px #1d326d;border-left:solid 1px #94a5c8;color:#000;font-weight:normal;padding:1px 5px;cursor:pointer;}
+	input{border:1px solid #BDC7D8;padding:2px;padding-bottom:2px;width:340px;}
+	#trace {padding:5px;background:#F7F7F7;border:solid #ccc 1px;overflow:auto;width:420px;height:460px;}
+</style>
+
+<script type="text/javascript">
+
+function ge(id) 
+{
+   return document.getElementById(id);
+}
+
+var xmlhttp = null;
+function ajax(url, onreadystatechange)
+{
+	try {
+		netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");
+	} catch (e) {}
+
+	xmlhttp=(window.XMLHttpRequest)?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP");
+	if (xmlhttp!=null)
+	{
+		xmlhttp.onreadystatechange=onreadystatechange;
+		xmlhttp.open("GET", url, true);
+		xmlhttp.setRequestHeader( "Cache-Control", "no-cache" );
+		xmlhttp.setRequestHeader( "Expires", "0" );
+		xmlhttp.setRequestHeader( "pragma", "no-cache" );
+		xmlhttp.send(null);
+	}
+}
+
+function callMethod()
+{
+	var url=ge('url').value;
+	var trace = ge('trace');
+	trace.innerHTML = url;
+
+	ajax(url, callMethodResponse);
+}
+
+function callMethodResponse()
+{
+	if (xmlhttp.readyState==4)
+	{
+		if (xmlhttp.status==200)
+		{
+			var trace = ge('trace');
+			trace.innerHTML+= "<br>"+xmlhttp.status+" "+xmlhttp.statusText;
+			trace.innerHTML+="<hr>"+xmlhttp.responseText;
+		}
+	}
+}
+
+function callMethodChange()
+{
+	var method=ge('method');
+	var info=method.options[method.selectedIndex].value;
+
+	var url = ge('url');
+	if (info)
+		url.value = unescape(info);
+	else
+		url.value = "";
+}
+
+function loadXMLDoc(url)
+{
+	ajax(url, loadXMLDocResponse);
+}
+
+function loadXMLDocResponse()
+{
+	if (xmlhttp.readyState!=4)
+		return;
+//	if (xmlhttp.status!=200)
+//		return;
+
+	var doc=xmlhttp.responseXML.documentElement;
+	var root=doc.getElementsByTagName("function");
+
+	for (var i=0; i<root.length; i++)
+	{
+		var node=root[i].getElementsByTagName("name");
+		var name=node[0].firstChild.nodeValue;
+
+		var node=root[i].getElementsByTagName("example");
+		var example=node[0].firstChild.nodeValue;
+
+		method.options[i+1] = new Option(name, example);
+	}
+
+	callMethodChange();
+}
+</script>
+
+<body onload="loadXMLDoc('api.xml');">
+	<h2>API Test Console</h2>
+	<p>You can experiment with methods and responses, and see what content httpQ makes available. Select the method you wish to call.</p>
+	<form>
+	<table>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<label>Method</label>
+							<select id="method" name="method" onchange="callMethodChange();">
+								<option value="http%3A//localhost%3A4800">-- Select Method --</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Url</label>
+							<input type="text" id="url" name="url" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="callMethod();return false;"">Call Method</button>
+						</td>
+					</tr>
+				</table>
+				</form>
+			</td>
+			<td>
+				<div id="trace">The results of your method call will show up here.</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

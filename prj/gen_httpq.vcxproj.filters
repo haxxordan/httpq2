@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b3ee08dc-209c-4c35-b71c-85916b19858e}</UniqueIdentifier>
+      <Extensions>*.*</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{b1d4b114-25fc-463a-ba1b-fc1886903bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{be0a2ba1-9969-48c3-a1a9-14ac4d609529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\id3lib">
+      <UniqueIdentifier>{0fe5c59a-4d7d-45b2-b511-7ef516f62574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\id3lib\id3">
+      <UniqueIdentifier>{61b68396-b2f1-48ff-b2e0-beab0ddb0f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\array.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commandmap.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\commands.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configdialog.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configinfo.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configmanager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\httpq.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ipc_pe.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\md5.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pluginmanager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\query.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\queryengine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\server.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\socketreader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\socketwriter.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\wa_ipc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\wa_msgids.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3.h">
+      <Filter>Includes\id3lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\field.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\globals.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\helpers.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\id3lib_frame.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\id3lib_streams.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\id3lib_strings.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\io_decorators.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\io_helpers.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\io_strings.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\misc_support.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\reader.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\readers.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\sized_types.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\tag.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\utils.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\writer.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\id3lib\id3\writers.h">
+      <Filter>Includes\id3lib\id3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\commandmap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\commands.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\configdialog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\configinfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\configmanager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\httpq.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\md5.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pluginmanager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\query.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\queryengine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\server.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socketreader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socketwriter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\httpq.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\id3lib\id3\id3lib_bitset">
+      <Filter>Includes\id3lib\id3</Filter>
+    </None>
+  </ItemGroup>
+</Project>
